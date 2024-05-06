@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL INFO</title>
+    <link rel="stylesheet" href="travel.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>ANYWHERE YOU GO</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Travel.html">Travel Info</a></li>
+                <li><a href="Explore.html">Explore</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </nav> 
+        <button class="dropbtn"><a href="Login.html">Log In</a></button>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Travel<br>Informations</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repudiandae nam, ab, enim harum fugiat hic pariatur distinctio vero dolorum unde ducimus dicta sed. Delectus tempore odio fuga vel error?</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="text">
+            <h2>Informations <br> for Your Flight</h2>
+        </div>
+        <div class="row-items">
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="Images/travel-luggage.png" alt="">
+                </div>
+                <h4>Baggage Informations</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse asperiores aperiam corrupti, unde libero facere sed ab iusto omnis veritatis excepturi minima reprehenderit itaque, mollitia, distinctio corporis qui ipsa magnam.</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="Images/payment-method.png" alt="">
+                </div>
+                <h4>Payment Options</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem similique eum, tenetur natus saepe nostrum, earum ducimus eius aut dolores excepturi sed quos ipsum optio. Explicabo nulla quos animi recusandae!</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="Images/destination.png" alt="">
+                </div>
+                <h4>Travel Advisories</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur ut, alias rerum laudantium nihil porro quam voluptas quasi laborum dicta, facere corrupti quo, rem dolores. Omnis, repellendus nisi! Tempore, quisquam!</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="Images/passport.png" alt="">
+                </div>
+                <h4>Travel Documents</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam nihil nemo voluptates quidem error expedita ad, ratione et earum fugit beatae cum accusantium ut eligendi libero quam maxime est rerum?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="flight-container">
+        <div class="flight-image-container">
+            <div class="flight-content">
+                <h1>Frequently <br>Asked Questions</h1>
+                <p>Quick Answers to <br>Your Booking Inquiries</p>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut culpa blanditiis eum porro, quae non odit reiciendis possimus cupiditate provident ad officiis ducimus vitae, cum modi explicabo repudiandae itaque delectus?</p>
+                <button class="help-btn"><a href="#">Help Center</a></button>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <div class="section-container footer-container">
+            <div class="footer-col">
+                <h3>HCI COMPANY</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eligendi suscipit esse odio sed dolor mollitia veniam omnis, soluta quisquam? Cumque nostrum ut delectus, consequatur necessitatibus enim minima unde eligendi?
+                </p>
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita excepturi maxime sequi, cupiditate veritatis ipsa aspernatur ex ea ut adipisci et sed. Ipsa quis cumque nam. Tempore iste amet nam!
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <p>About Us</p>
+                <p>Our Team</p>
+                <p>Blog</p>
+                <p>Book</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <p>FAQs</p>
+                <p>Terms & Condition</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <p>Social Media</p>
+                <p>Help Center</p>
+                <p>Partnerships</p>
+            </div>
+        </div>
+        <div class="footer-bar">
+            Copyright 2024 Web Design HCI. All Rights Reserved.
+        </div>
+    </footer>
+    
+    <script>
+        window.addEventListener("scroll", function(){
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY >0);
+        });
+    </script>
+
+</body>
+</html>
